@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WeatherApp</string>
+    <string name="app_name">Irish Weather</string>
     <string name="MIN">MIN</string>
     <string name="MAX">MAX</string>
 
