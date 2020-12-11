@@ -3,7 +3,7 @@
     package="com.example.WeatherApp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    
+
     <application
         android:allowBackup="true"
         android:label="Irish Weather"
@@ -14,24 +14,18 @@
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.example.WeatherApp.RecyclerDetailActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop"
-            >
+            android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.WeatherApp.MainActivity">
             </meta-data>
         </activity>
         <activity android:name="com.example.WeatherApp.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

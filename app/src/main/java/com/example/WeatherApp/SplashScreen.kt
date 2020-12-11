@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import kotlinx.android.synthetic.main.splash_screen.*
 
+
+
 class SplashScreen : AppCompatActivity() {
 
     private val DELAY: Long = 2500
